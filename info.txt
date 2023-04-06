@@ -1,0 +1,37 @@
+API Key (v3 auth)
+d8041a340d40c73cc6019fd2a865ae05
+
+Example API Request
+https://api.themoviedb.org/3/movie/550?api_key=d8041a340d40c73cc6019fd2a865ae05
+
+API Read Access Token (v4 auth)
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkODA0MWEzNDBkNDBjNzNjYzYwMTlmZDJhODY1YWUwNSIsInN1YiI6IjYzNDU5ZDcyN2E5N2FiMDA3ZDU2ZTc3NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.WF25W4s1mydvucmlER9jyH1ezdCmwGh6NG_-hSOyqs4
+
+Install Firebase CLI
+npm install -g firebase-tools
+
+Deploy to Firebase Hosting
+
+Sign in to Google
+firebase login
+
+Initiate your project
+firebase init
+
+When you're ready, deploy your web app
+firebase deploy
+
+
+rect code
+
+import React from 'react'
+
+function Row(){
+    return(
+        <div>
+
+        </div>
+    )
+}
+
+export default Row
